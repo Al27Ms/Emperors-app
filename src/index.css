@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #4c4a37;
+  font-family: 'Helvetica Neue', sans-serif; 
+  font-size: 20px; 
+  background-color: #fff;
+  line-height: 1.2;
+}
+
+.wrap {
+  width: 1000px;
+  margin: auto;
+  margin-top: 30px;
+}
+.card{
+  box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.6);
+  transition: 0.4s;
+  width: 300px;
+  background: #fff;
+  text-align: center;
+  font-size: 16px;
+  float: left;
+  margin: 10px;
+}
+.card:hover{
+  box-shadow: 2px 2px 16px 2px #505050;
+}
+.dynasty {
+  padding: 2rem 0;
+}
+
+.title {
+  text-align: center;
+  padding: 1rem;
+  font-size: 4rem;
+  
+  font-weight: bold;
+}
+
+.line {
+  border: #F7CB15 2px solid;
+  box-shadow: 2px -3px 10px 1px #505050;
+  margin-top: 15px;
+}
+.photo {
+  width: 100%;
+}
+.name {
+  font-size: 25px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.item-text{
+  padding: 12px;
+  font-size: 17px;
+}
+.btn-container{
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+.btn{
+  background: transparent;
+  border-color: #F7CB15;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+  margin: 0 0.5rem;
+  letter-spacing: 1px;
+  padding: 0.375rem 0.75rem;
+  color: #F7CB15;
+  cursor: pointer;
+  transition-duration: 0.3s;
+}
+.btn:hover{
+  background-color: #F7CB15;
+  color: #4c4a37;
+}
+.footer{
+  clear: both;
+  padding: 15px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+p{
+  padding-top: 15px;
+}
