@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+#List of Roman Emperors
+
+List of Roman Emperors.
+
+Simple application that shows list of Roman Emperors from 27 BC to 98 AD. Has a dynasty filtering feature.
+
+Application was written in React.js and CSS.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
